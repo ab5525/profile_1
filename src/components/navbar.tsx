@@ -15,7 +15,7 @@ export default function Navbar({
   return (
     <nav className=" text-white justify-between border-solid bg-white border-gray-200 dark:bg-gray-900 mb-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a>
+        <a href="/">
           <h1 className="text-xl">{name}</h1>
         </a>
         <div className="hidden w-full md:block md:w-auto">
